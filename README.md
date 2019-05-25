@@ -34,22 +34,23 @@ cd make-CelebA-HQ
 3.Download and Unzip CelebA & CelebA-HQ
 
 Downloading CelebA: [Large-scale CelebFaces Attributes (CelebA) Dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
+
 Downloading CelebA-HQ. Google Drive: https://drive.google.com/drive/folders/0B4qLcYyJmiz0TXY1NG02bzZVRGs
-```
-# There are 14 file inside. (img_celeba.7z.001, ... img_celeba.7z.014)
+```bash
+# there are 14 file inside. (img_celeba.7z.001, ... img_celeba.7z.014)
 cd CelebA/Img/img_celeba.7z  
-# Merge .7z files into a single file.
+# merge .7z files into a single file.
 cat img_celeba.7z.0** > img_celeba.7z
-# Unzip the .7z file
+# unzip the .7z file
 7z x img_celeba.7z
-# Move the unzipped folder 'img_celeba' under 'Img/' path
+# move the unzipped folder 'img_celeba' under 'Img/' path
 mv img_celeba ../
 
 
 cd CelebA-HQ/
-# Unzip the zips of deltas00000.zip, deltas00001.zip, .. into one file
+# unzip the zips of deltas00000.zip, deltas00001.zip, .. into one file
 unzip '*.zip' -d combined
-# Move the "image_list.txt" to current github repo folder.
+# move the "image_list.txt" to current github repo folder.
 ```
 
 4.Make sure your datasets/landmark/scripts under current Github repo folder.
@@ -57,7 +58,8 @@ unzip '*.zip' -d combined
 --CelebA
  |    |___Anno
  |    |     |___list_landmarks_celeba.txt
- |    |     |...
+ |    |     |___...
+ |    |     
  |    |___Img
  |         |___ img_celeba/
  |
@@ -82,3 +84,5 @@ where `./` is the directory where you wish the data to be saved.
 This code is inspired by these files
 * https://github.com/nperraud/download-celebA-HQ
 
+# Note
+The code above use `jpeg=8d` version of `md5` for checking hash value, however I could get the expected value for `jpeg=9b` version, so I simply ignore the md5 checking. Tell me if you think somewhere wrong.
