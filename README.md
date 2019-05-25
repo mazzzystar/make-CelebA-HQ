@@ -78,7 +78,7 @@ unzip '*.zip' -d combined
 python make_HQ_images.py ./
 
 ```
-where `./` is the directory where you wish the data to be saved.
+where `./` is the directory where you wish the data to be saved. this script will take a few hours to run depending on your internet connection and your CPU power. The final HQ images will be saved as .npy files in the ./celebA-HQ folder.
 
 # Sources
 This code is inspired by these files
