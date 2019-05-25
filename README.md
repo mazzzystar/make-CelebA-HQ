@@ -55,21 +55,21 @@ unzip '*.zip' -d combined
 
 4.Make sure your datasets/landmark/scripts under current Github repo folder.
 ```
---CelebA
- |    |___Anno
- |    |     |___list_landmarks_celeba.txt
- |    |     |___...
- |    |     
- |    |___Img
- |         |___ img_celeba/
- |
- |_CelebA-HQ
- |    |
- |    |_Combined/
- |  
- |-make_HQ_images.py
- |-image_list.txt  
- |_README.md 
+make-CelebA-HQ---CelebA
+               |    |___Anno
+               |    |     |___list_landmarks_celeba.txt
+               |    |     |___...
+               |    |     
+               |    |___Img
+               |         |___ img_celeba/
+               |
+               |_CelebA-HQ
+               |    |
+               |    |_Combined/
+               |  
+               |-make_HQ_images.py
+               |-image_list.txt  
+               |_README.md 
   
 ```
 
