@@ -2,8 +2,8 @@
 Python script to download and create the celebA-HQ dataset.
 
 To get the celebA-HQ dataset, you need to 
- a) download the celebA dataset `download_celebA.py` ,
- b) download some extra files `download_celebA_HQ.py`,
+ a) download the celebA dataset.
+ b) download celebA-HQ dataset.
  c) do some processing to get the HQ images `make_HQ_images.py`.
 
 
