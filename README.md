@@ -80,6 +80,21 @@ python make_HQ_images.py ./
 ```
 where `./` is the directory where you wish the data to be saved. this script will take a few hours to run depending on your internet connection and your CPU power. The final HQ images will be saved as .npy files in the ./celebA-HQ folder.
 
+6.Sample of loading image
+```python
+import numpy as np
+from PIL import Image
+
+img = np.load('imgHQ15858.npy')
+img = img.reshape(3, 1024, 1024)
+print(img.shape)
+img = np.transpose(img, (1, 2, 0))
+print(img.shape)
+
+im = Image.fromarray(img)
+im.show()
+```
+![](png/0.png)
 # Sources
 This code is inspired by these files
 * https://github.com/nperraud/download-celebA-HQ
