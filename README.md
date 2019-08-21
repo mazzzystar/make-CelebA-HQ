@@ -5,7 +5,7 @@ To get the celebA-HQ dataset, you need to
 
  a) download the celebA dataset. [Large-scale CelebFaces Attributes (CelebA) Dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
  
- b) download celebA-HQ dataset. Google Drive: https://drive.google.com/drive/folders/0B4qLcYyJmiz0TXY1NG02bzZVRGs
+ b) download celebA-HQ dataset. [Google Drive](https://drive.google.com/drive/folders/0B4qLcYyJmiz0TXY1NG02bzZVRGs)
  
  c) do some processing to get the HQ images `make_HQ_images.py`.
 
