@@ -3,7 +3,7 @@ Python script to download and create the celebA-HQ dataset.
 
 To get the celebA-HQ dataset, you need to 
 
- a) download the celebA dataset. [Large-scale CelebFaces Attributes (CelebA) Dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
+ a) download the celebA dataset. [Google Drive](https://drive.google.com/drive/folders/0B7EVK8r0v71pWEZsZE9oNnFzTm8) or [Baidu Drive](https://pan.baidu.com/s/1eSNpdRG#list/path=%2F).
  
  b) download celebA-HQ dataset. [Google Drive](https://drive.google.com/drive/folders/0B4qLcYyJmiz0TXY1NG02bzZVRGs)
  
